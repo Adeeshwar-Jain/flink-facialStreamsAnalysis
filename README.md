@@ -13,7 +13,7 @@ https://www.howtoforge.com/tutorial/ubuntu-apache-maven-installation   // specif
 
 STEPS FOR CREATING JAR:-
 
-1. Clone the project:- git clone https://Adeesh96@bitbucket.org/hemant0601/flink.git .
+1. Clone the project:- git clone https://github.com/Adeeshwar-Jain/flink-facialStreamsAnalysis.git .
 2. Switch to project directory in terminal.
 3. Run "mvn package" or "mvn clean package" to make the jar.
 
