@@ -1,6 +1,6 @@
-#REAL TIME ANALYTICS USING FLINK AND MQTT CONNECTOR
+# REAL TIME ANALYTICS USING FLINK AND MQTT CONNECTOR
 
-#FOR FACIAL STREAMS
+# FOR FACIAL STREAMS
 
 Download Flink:- https://flink.apache.org/downloads.html
 
@@ -32,17 +32,17 @@ To run the jar from flink-dashboard:-
 4. Select the checkmark against uploaded jar and add Entry class name(name of class to run) and the other necessary parameters.
 5. Click Submit to run the class.
 
-#Note:- 
-#For Saving data in DB:-
+# Note:- 
+# For Saving data in DB:-
 	run MetrixAnalysis class
 	
-#For seeing saved data of current date based on different parameters
+# For seeing saved data of current date based on different parameters
 	run OnFlyParamBasedAnalysis class
 
 
-#EXAMPLE STREAMS:-
+# EXAMPLE STREAMS:-
 
-#Live stream:-
+# Live Stream:-
 
 1. {
 	  "version" : "2",
@@ -69,9 +69,9 @@ To run the jar from flink-dashboard:-
 	}
 
 
-#Test Streams:-
+# Test Streams:-
 
-#snapshot:-
+# snapshot:-
 {
   "face" : "",
   "event_type" : "match",
@@ -84,7 +84,7 @@ To run the jar from flink-dashboard:-
   "timestamp" : 1532692241126
 }
 
-#facedetected:-
+# facedetected:-
 {
   "face" : "HexCodedString",
   "event_type" : "match",
@@ -97,7 +97,7 @@ To run the jar from flink-dashboard:-
   "timestamp" : 1532692260044
 }
 
-#falsepositive:-
+# falsepositive:-
 {
   "device_id" : "cam_entry",
   "model" : "aws_recok",
@@ -107,7 +107,7 @@ To run the jar from flink-dashboard:-
   "timestamp" : 1532692280392
 }
 
-#falsenegative:-
+# falsenegative:-
 {
   "device_id" : "cam_entry",
   "model" : "aws_recok",
@@ -117,4 +117,4 @@ To run the jar from flink-dashboard:-
   "timestamp" : 1532692282695
 }
 
-#Note:- Maven 3.0.4 (or higher),Java 8.x,flink-1.5 should be installed
+# Note:- Maven 3.0.4 (or higher),Java 8.x,flink-1.5 should be installed
