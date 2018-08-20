@@ -8,7 +8,8 @@ Download maven:- https://maven.apache.org/download.cgi
 
 Installing maven:-
 
-https://maven.apache.org/install.html				
+https://maven.apache.org/install.html
+
 https://www.howtoforge.com/tutorial/ubuntu-apache-maven-installation   // specific for ubuntu
 
 STEPS FOR CREATING JAR:-
